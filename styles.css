@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef5e4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    padding: 15px;
+    color: white;
+}
+
+.sensor-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.sensor-card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+}
+
+.sensor-card h2 {
+    color: #4caf50;
+}
+
+canvas {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
